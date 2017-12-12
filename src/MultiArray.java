@@ -28,9 +28,8 @@ public class MultiArray {
         for (int i = 0 ; i < tab.length ; i++) {
             for (int j = 0; j < tab[i].length; j++) {
                 System.out.print(tab[i][j]+", ");
-                if (j ==tab[i].length-1)
-                    System.out.println();
             }
+            System.out.println();
         }
 
     }
